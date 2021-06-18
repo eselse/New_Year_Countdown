@@ -46,7 +46,8 @@ h1 {
 
 /* Classes ==================================================================== */
 .countdown {
-  display: flex;
+  /* display: flex; */
+  display: none;
   transform: scale(2);
 }
 
@@ -60,6 +61,16 @@ h1 {
 
 .time h2 {
   margin: 0 0 5px;
+}
+
+.year {
+    font-size: 200px;
+    z-index: -1;
+    opacity: 0.2;
+    position: absolute;
+    bottom: 20px;
+    left: calc(50% - width / 2);
+    /* transform: translateX(-50%); */
 }
 
 /* Media Queries ============================================================== */
